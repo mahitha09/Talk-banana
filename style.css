@@ -1,0 +1,84 @@
+/*Global Styling*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-color: #FCE029;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+textarea{
+    width: 50%;
+    height: 12vh;
+    padding: 2vh;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    resize: none;
+    outline: #FCE029;
+    border: 2px solid #FCE029;
+}
+
+button{
+    background-color: transparent;
+    color: #FCE029;
+    border: 2px solid #FCE029;
+    border-radius: 50px;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    box-shadow: 0 3px 7px rgb(0,0,0,0.2);
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+button:hover{
+    color: white;
+    background-color: #FCE029;
+}
+
+.output{
+    height: 6vh;
+    width: 70vh;
+    border: 2px solid #FCE029;
+    display: inline-block;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    padding: 2vh;
+    text-align: center;
+}
+
+small{
+    color: rgb(177, 176, 176);
+    margin-top: 5vh;
+}
+ 
+img{
+    width: 30%;
+    margin-top: 10vh;
+}
+
+.footer{
+    height: 5vh;
+    background: #FCE029;
+}
