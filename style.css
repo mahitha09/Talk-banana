@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
 }
 
 .header{
@@ -27,14 +28,15 @@ body{
 }
 
 textarea{
-    width: 50%;
-    height: 12vh;
+    width: 70%;
+    height: 10vh;
     padding: 2vh;
     margin-top: 10vh;
     margin-bottom: 8vh;
-    resize: none;
     outline: #FCE029;
     border: 2px solid #FCE029;
+    font-size: 1.1rem;
+    resize: none;
 }
 
 button{
@@ -47,7 +49,7 @@ button{
     font-size: 1.2rem;
     letter-spacing: 1px;
     font-weight: 700;
-    box-shadow: 0 3px 7px rgb(0,0,0,0.2);
+    box-shadow: 0 3px 7px rgb(0,0,0,0.1);
     transition: 0.3s all ease;
     cursor: pointer;
 }
@@ -62,7 +64,7 @@ button:hover{
     width: 70vh;
     border: 2px solid #FCE029;
     display: inline-block;
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-bottom: 2vh;
     padding: 2vh;
     text-align: center;
@@ -74,11 +76,13 @@ small{
 }
  
 img{
-    width: 30%;
+    width: 50vh;
+    max-width:fit-content;
     margin-top: 10vh;
 }
 
 .footer{
+    margin-top: 10vh;
     height: 5vh;
     background: #FCE029;
 }
