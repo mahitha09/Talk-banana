@@ -45,15 +45,16 @@ button{
     background-color: transparent;
     color: #FCE029;
     border: 2px solid #FCE029;
-    border-radius: 50px;
     outline: none;
-    padding: 10px 15px;
     font-size: 1.2rem;
     letter-spacing: 1px;
     font-weight: 700;
     box-shadow: 0 3px 7px rgb(0,0,0,0.1);
     transition: 0.3s all ease;
     cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    border-radius: 90px;
+    text-align: center;
 }
 
 button:hover{
@@ -62,13 +63,11 @@ button:hover{
 }
 
 .output{
-    height: 4vh;
-    width: 70%;
-    border: 2px solid #FCE029;
+    border: 2px solid #000;
     display: inline-block;
     margin-top: 10vh;
     margin-bottom: 2vh;
-    padding: 2vh;
+    padding: 1rem 5rem;
     text-align: center;
 }
 
