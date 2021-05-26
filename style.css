@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body{
@@ -12,6 +13,7 @@ body{
 .header{
     background-color: #FCE029;
     height: 10vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,8 +62,8 @@ button:hover{
 }
 
 .output{
-    height: 6vh;
-    width: 70vh;
+    height: 4vh;
+    width: 70%;
     border: 2px solid #FCE029;
     display: inline-block;
     margin-top: 10vh;
